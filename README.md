@@ -1,34 +1,5 @@
 # Metagenomics
 Classifcation of Normal and Peri-implantitis Disease Using R-Language
 
-Libraries:
-
-library(reshape2)  # Reshape data frames
-
-library(tidyverse)  # Collection of packages for data manipulation and visualization
-
-library(phyloseq)  # Microbiome data analysis
-
-library(microbiome)  # Microbiome data analysis
-
-library(vegan)  # Ecological community analysis
-
-library(readxl)  # Read Excel files
-
-library(DESeq2)  # Differential gene expression analysis
-
-library(picante)  # Phylogenetic integration and community analysis
-
-library(metagenomeSeq)  # Differential abundance analysis
-
-library(HMP)  # Hypothesis testing and sample size calculations
-
-library(dendextend)  # Hierarchical clustering and tree visualization
-
-library(rms)  # Regression modeling and prediction
-
-library(breakaway)  # Species richness estimation
-
-library(ALDEx2)  # Abundance inference from counts
-
-library(ggrepel)  # Enhanced ggplot2 graphics
+Analyzing the taxanomic composition of peri-implantitis vs Normal from Saliva samples. Alpha diversity provides insights into thee diversity within individual samples while utilizing Shannon index and Beta-diversity analysis include PCA and PCoA, which differentiate in microbial community struture between healthy and diseased samples (peri-implantitis). Followed by Differential abundance analysis and Modelling & prediction.
+Which done the distributional characteristics, unconditiontional associations, Booststrapping, and Output is prediction **probability**
