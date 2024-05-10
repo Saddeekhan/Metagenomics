@@ -1,6 +1,6 @@
 # Metagenomics
-Classifcation of Normal and Peri-implantitis Disease Using **R-Language
-**
+Classifcation of Normal and Peri-implantitis Disease Using R-Language
+
 Libraries:
 
 library(reshape2)  # Reshape data frames
